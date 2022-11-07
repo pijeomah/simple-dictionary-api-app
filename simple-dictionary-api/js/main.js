@@ -17,7 +17,7 @@ function findWord(){
             console.log(el.definition)
              let li = document.createElement('li')
              console.log(el.definition)
-             li.textContent = el.definition
+             li.textContent = el.definition + " : "
              console.log(el.definition)
               document.querySelector('ul').appendChild(li)
         }
